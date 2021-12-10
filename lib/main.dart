@@ -22,33 +22,18 @@ class MyApp extends StatelessWidget {
           child: Column(
             //crossAxisAlignment: CrossAxisAlignment.stretch,
             children: <Widget> [
-              Container(
-                height: 100.0,
-                width: 100.0,
-                //margin: EdgeInsets.symmetric(vertical: 50.0, horizontal: 150.0), // for outer spacing
-                margin: EdgeInsets.only(bottom: 10.0),
-                //padding: EdgeInsets.only(top:50), // for inner spacing of the contents
-                color: Colors.white,
-                child: Center(child: Text("Emon")),
+              CircleAvatar(
+                radius: 50.0,
+                backgroundImage: AssetImage('images/em.PNG'),
               ),
-              Container(
-                height: 100.0,
-                width: 100.0,
-                margin: EdgeInsets.only(bottom: 10.0),
-                //margin: EdgeInsets.symmetric(vertical: 50.0, horizontal: 150.0), // for outer spacing
-                //padding: EdgeInsets.only(top:50), // for inner spacing of the contents
-                color: Colors.red,
-                child: Center(child: Text("Emon")),
+              Text(
+                "Jakaria Emon",
+                style: TextStyle(
+                  fontSize: 20.0,
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold,
+                ),
               ),
-               Container(
-                height: 100.0,
-                width: 100.0,
-                margin: EdgeInsets.only(bottom: 10.0),
-               //margin: EdgeInsets.symmetric(vertical: 50.0, horizontal: 150.0), // for outer spacing
-               //padding: EdgeInsets.only(top:50), // for inner spacing of the contents
-                color: Colors.blue,
-                child: Center(child: Text("Emon")),
-               ),
             ],
           )
       ),

@@ -29,10 +29,21 @@ class MyApp extends StatelessWidget {
               Text(
                 "Jakaria Emon",
                 style: TextStyle(
-                  fontSize: 20.0,
+                  fontFamily: 'Pacifico',
+                  fontSize: 25.0,
                   color: Colors.white,
                   fontWeight: FontWeight.bold,
                 ),
+              ),
+              Text(
+                  "LECTURER",
+                  style: TextStyle(
+                    fontFamily: 'Source Sans Pro',
+                    fontSize: 16.0,
+                    color: Colors.teal[100],
+                    fontWeight: FontWeight.bold,
+                    letterSpacing: 0.5,
+                  ),
               ),
             ],
           )

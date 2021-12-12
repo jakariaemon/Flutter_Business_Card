@@ -42,7 +42,7 @@ class MyApp extends StatelessWidget {
                     fontSize: 16.0,
                     color: Colors.teal[100],
                     fontWeight: FontWeight.bold,
-                    letterSpacing: 0.5,
+                    letterSpacing: 0.8,
                   ),
               ),
             ],
